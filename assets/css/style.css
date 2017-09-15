@@ -1003,9 +1003,11 @@ body{
 html {
     position: relative;
     min-height: 100%;
+          overflow-x: hidden;
 }
 body {
     margin: 0px 0px 100px; /* bottom = footer height */
+          overflow-x: hidden;
 }
 
 /* Adding styling for Map*/
