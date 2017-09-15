@@ -18,11 +18,19 @@
   top: 8px;
 }
 
-/*.checkbox{
-  color: #fff !important;
-  margin-left: 6px;
-}*/
+a {
+    background-color: transparent;
+}
 
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
 .form-group{
   margin-left: 3px !important;
   position: relative;
@@ -1165,12 +1173,17 @@ footer{
     margin-left: 63px;
   }
 .heading1{
+  text-decoration: none;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
   font-family: "Cinzel",serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 1.875rem;
+  letter-spacing: 0.08em;
   color: #fff !important;
   margin-top: 220px;
-  margin-left: 17%;
+  margin-left: 13%;
   }
 .heading2{
    font-weight: bold;
