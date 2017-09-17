@@ -1010,6 +1010,7 @@ button, input, select, textarea {
 
 body{
   background-color: #4a98a5 !important;
+  overflow-y: hidden; 
 }
 
 /*Sticky Footer*/
@@ -1191,8 +1192,8 @@ footer{
   font-size: 1.875rem;
   letter-spacing: 0.08em;
   color: #fff !important;
-  margin-top: 220px;
-  margin-left: 13%;
+  margin-top: 115px;
+  margin-left: 12%;
   }
 .heading2{
    font-weight: bold;
