@@ -17,6 +17,11 @@
   position: relative;
   top: 8px;
 }
+@media (min-width: 767px) {
+    .navbar-nav .dropdown-menu .caret {
+  transform: rotate(-90deg);
+    }
+}
 
 a {
     background-color: transparent;
@@ -31,6 +36,7 @@ a {
     left: 100%;
     margin-top: -1px;
 }
+
 .form-group{
   margin-left: 3px !important;
   position: relative;
@@ -439,6 +445,7 @@ a {
 }*/
 a{
   text-decoration: none !important;
+  /*color: #9d9d9d;*/
 }
 
 .gym-rec{
@@ -654,7 +661,7 @@ The good life,Interval training*/
   position: relative;
     top: -80px;
   height: 634px;
-  background-image: url(../images/miami7.jpg);
+  background-image: url(../images/image1.jpg);
   /*background-size: 100%;*/
   background-size: cover;
   background-repeat: no-repeat;
