@@ -1241,7 +1241,7 @@ footer{
   font-style: normal;
   font-size: 1.875rem;
   letter-spacing: 0.08em;
-  color: #fff !important;
+  color: rgba(128,128,128,9) !important;
   margin-top: 59px;
   margin-left: 10%;
   }
