@@ -317,19 +317,19 @@ a {
   background-attachment: fixed;
 }
 
-.venueImgDiv{
-  margin-left: 20%;
+.carousel-jumbotron{
+  margin-left: 17%;
+  width: 65%;
+  height: 5%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: silver;
 }
 
-.venueImg{
-  margin-left: 10%;
-  margin-right: 7%;
-  margin-bottom: 2%;
-  border-style: solid;
-  border-width: 2px;
-  width: 500px;
-  height: 280px;
+/*.item{
+  height: 100%;
 }
+*/
 
 .fitness-box{
   background-color: rgba(0,0,0,0.4);
