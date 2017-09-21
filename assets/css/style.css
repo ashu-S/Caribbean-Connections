@@ -1,7 +1,7 @@
 /*Nav Bar*/
 .navbar{
   height: 100px;
-  
+
 }
 .navbar-collapse{
   margin-top: 2%;
@@ -93,7 +93,7 @@ a {
     font-size: 30px ! important;
     color: white ! important;
   }
-  
+
 .logo{
   position: relative;
   top: -47px;
@@ -174,7 +174,7 @@ a {
 
 /*.about-jumbotron{
   height: 910px;
-  background-image: url(../images/womanstretchingbeach.jpg) !important; 
+  background-image: url(../images/womanstretchingbeach.jpg) !important;
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
@@ -317,6 +317,19 @@ a {
   background-attachment: fixed;
 }
 
+.venueImgDiv{
+  margin-left: 20%;
+}
+
+.venueImg{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  border-style: solid;
+  border-width: 2px;
+  width: 35%;
+}
+
 .fitness-box{
   background-color: rgba(0,0,0,0.4);
   text-align: center;
@@ -405,18 +418,18 @@ a {
 
 .columnSize{
    width: 21% ! important;
-  
+
     /*padding: 1px;*/
 }
 /*@media screen and (min-width:992px)
 {
 .col-md-3 {
     width: 25%;
-     padding: 0px; 
+     padding: 0px;
     margin-left: 21px !important;
     position: relative;
     /*margin-left: 21px;*/
-  
+
 .buttonClass{
     float:left;
     width: 30%;
@@ -502,7 +515,7 @@ a{
   position: relative;
     left: 49px;
   width: 780px;
-  
+
 }
 
 
@@ -592,7 +605,7 @@ element that contains the map. */
 ./*map-row{
   height: 600px;
   padding: 1px;
-} 
+}
 */
 .columnSize{
  /* padding-right:0 ! important;
@@ -1046,7 +1059,7 @@ button, input, select, textarea {
 
 body{
   background-color: #4a98a5 !important;
-  overflow-y: hidden; 
+  overflow-y: hidden;
 }
 
 /*Sticky Footer*/
@@ -1097,7 +1110,7 @@ footer{
   margin-bottom: 50px;
   height: 700px;
   padding: 1px;
-} 
+}
 #form {
   background-color: rgba(189, 195, 199, 0.7);
   padding: 10px 25px;
@@ -1110,8 +1123,8 @@ footer{
 
 #form h1 {
       font-size: 100%;
-      font-weight: 700; 
-      margin-bottom: 3px;    
+      font-weight: 700;
+      margin-bottom: 3px;
 }
 
 .fieldset {
@@ -1336,13 +1349,13 @@ position: relative;
     width: 100%;
     color: rgb(30, 30, 30);
     text-decoration: none;
-  } 
-    .event-list > li > .social > ul > li {    
+  }
+    .event-list > li > .social > ul > li {
         padding: 0px;
     }
     .event-list > li > .social > ul > li > a {
         padding: 3px 0px;
-  } 
+  }
   .event-list > li > .info > ul > li:hover,
   .event-list > li > .social > ul > li:hover {
     color: rgb(30, 30, 30);
@@ -1407,8 +1420,8 @@ position: relative;
       height: 120px;
       text-align: left;
       padding-right: 40px;
-    } 
-    .event-list > li > .info > .title, 
+    }
+    .event-list > li > .info > .title,
     .event-list > li > .info > .desc {
       padding: 0px 10px;
     }
@@ -1427,7 +1440,7 @@ position: relative;
         .event-list > li > .social > ul {
             border-left: 1px solid rgb(230, 230, 230);
         }
-    .event-list > li > .social > ul > li {      
+    .event-list > li > .social > ul > li {
       display: block;
             padding: 0px;
     }
@@ -1442,14 +1455,14 @@ position: relative;
   position: relative;
     left: 0px !important;
     top: -19px !important;
-    width: 100% !important;   
+    width: 100% !important;
   }
   .event-container1{
      background-color: white !important;
   position: relative;
     left: 0px !important;
     top: -49px !important;
-    width: 100% !important; 
+    width: 100% !important;
   }
 /*.seminars-jumbotron{
   position: relative;
