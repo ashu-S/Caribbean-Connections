@@ -326,10 +326,15 @@ a {
   border-color: silver;
 }
 
-/*.item{
+.item{
   height: 100%;
 }
-*/
+
+.venueImg{
+  width: 100%;
+  height: 70%;
+}
+
 
 .fitness-box{
   background-color: rgba(0,0,0,0.4);
