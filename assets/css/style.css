@@ -17,6 +17,11 @@
   position: relative;
   top: 8px;
 }
+@media (min-width: 767px) {
+    .navbar-nav .dropdown-menu .caret {
+  transform: rotate(-90deg);
+    }
+}
 
 a {
     background-color: transparent;
@@ -32,6 +37,7 @@ a {
     margin-top: -1px;
 }
 
+<<<<<<< HEAD
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -63,6 +69,8 @@ a {
   background: #bb0000;
   color: white;
 }
+=======
+>>>>>>> 1d0dc9eb2106c346ebec5ce8e1b9e4b87ec744b7
 .form-group{
   margin-left: 3px !important;
   position: relative;
@@ -209,7 +217,9 @@ a {
 }
 
 .carousel-indicators{
-  margin-bottom: 75px;
+  /*margin-bottom: 75px;*/
+  /*bottom: -66px !important;*/
+  bottom: 5px  !important;
 }
 
 /*Modal*/
@@ -471,6 +481,7 @@ a {
 }*/
 a{
   text-decoration: none !important;
+  /*color: #9d9d9d;*/
 }
 
 .gym-rec{
@@ -686,7 +697,7 @@ The good life,Interval training*/
   position: relative;
     top: -80px;
   height: 634px;
-  background-image: url(../images/miami7.jpg);
+  background-image: url(../images/image1.jpg);
   /*background-size: 100%;*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -1035,6 +1046,7 @@ button, input, select, textarea {
 
 body{
   background-color: #4a98a5 !important;
+  overflow-y: hidden; 
 }
 
 /*Sticky Footer*/
@@ -1216,8 +1228,8 @@ footer{
   font-size: 1.875rem;
   letter-spacing: 0.08em;
   color: #fff !important;
-  margin-top: 220px;
-  margin-left: 13%;
+  margin-top: 59px;
+  margin-left: 10%;
   }
 .heading2{
    font-weight: bold;

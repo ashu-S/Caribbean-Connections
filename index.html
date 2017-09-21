@@ -10,11 +10,12 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/secondstyle.css">
  	<!--Fonts-->
+ 	<!--Fonts-->
  	<link href="https://fonts.googleapis.com/css?family=Forum|Josefin+Sans|Nixie+One|Poiret+One|Proza+Libre|Questrial|Quicksand" rel="stylesheet">
  	<!-- Icons -->
  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  	<!--JQuery Library-->
- 	<script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+ 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  	<!--Bootstrap CSS-->
  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,7 +25,6 @@
  	<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
  	<!--Firebase-->
 	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 
 </head>
 
@@ -40,19 +40,25 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <!-- <a class="navbar-brand" href="index.html">
-	      	Caribbean Connections
-	      </a> -->
 	   </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="navbar-collapse">
 	       <ul class="nav navbar-nav">
-	      	<li><a href="index.html">HOME</a></li>
-	        <li><a href="seminars.html">SEMINARS</a></li>
-	        <li><a href="events.html">EVENTS</a></li>
-	        <li><a href="testimonials.html">TESTIMONIALS</a></li>
-	        <li><a href="contact.html">CONTACT US</a></li>
+	      	<li><a href="index.html">HOME</a></li>	     
+<!-- menu -->
+  		<li>
+            <a href="seminars.html" class="dropdown-toggle" data-toggle="dropdown">SEMINARS <b class="caret"></b></a>
+
+             <ul class="dropdown-menu nav navbar-nav" style="top: 65px;background-color: #222">
+             	<li ><a href="seminarClips.html" style="text-decoration: none;">SEMINAR CLIPS</a></li>
+                <li><a href="seminarPackages.html">SEMINAR PACKAGES </a></li>
+               	<li><a href="seminarVenues.html">SEINAR VENUES</a></li>        
+              </ul>
+                 </li>
+                 <li><a href="contact.html">CONTACT US</a></li>
+				 <li><a href="events.html">EVENTS</a></li>
+	        	 <li><a href="testimonials.html">TESTIMONIALS</a></li>
 	      </ul>
 	      
 	    </div><!-- /.navbar-collapse -->
@@ -84,11 +90,50 @@
                    <span class="heading">About Us</span>
                 </div> <!-- Page Header complete -->
                 <!-- Row for image and paragraph -->
+  
                     <div class="row">
                      <!-- Column for Row to contain image and paragraph -->
                            <div class="col-md-12">
                            <!-- Profile Image -->
-                              <img class="thumbnail img-responsive pull-right about-image" src="assets/images/default-thumbnail.jpg" >
+                             <!--  <img class="thumbnail img-responsive pull-right about-image" src="assets/images/pic1.jpg" > -->
+
+								<!-- slide show start -->
+								  <div id="myCarousel" class="carousel slide thumbnail img-responsive pull-right about-image" data-ride="carousel" style="height: 359px!important; position: relative;left:107px;">
+							    <!-- Indicators -->
+							    <ol class="carousel-indicators">
+							      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							      <li data-target="#myCarousel" data-slide-to="1"></li>
+							      <li data-target="#myCarousel" data-slide-to="2"></li>
+							    </ol>
+
+							    <!-- Wrapper for slides -->
+							    <div class="carousel-inner ">
+							      <div class="item active">
+							        <img src="assets/images/pic1.jpg" alt="Image1" style="width:326px; height: 349px">
+							      </div>
+
+							      <div class="item">
+							        <img src="assets/images/pic2.jpg" alt="Image2" style="width:326px; height: 349px">
+							      </div>
+							    
+							      <div class="item">
+							        <img src="assets/images/pic1.jpg" alt="Image3" style="width:326px; height: 349px">
+							      </div>
+							    </div>
+
+							    <!-- Left and right controls -->
+							    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+							      <span class="glyphicon glyphicon-chevron-left"></span>
+							      <span class="sr-only">Previous</span>
+														    </a>
+							    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+							      <span class="glyphicon glyphicon-chevron-right"></span>
+							      <span class="sr-only">Next</span>
+							    </a>
+							  </div>
+<!-- </div> -->
+								<!-- slide show end -->
+
                               <div>
                            <!-- My profile details -->
                               <p class="ptext">At SICORE100 we use powerful tools to apply strategic interventions to situations that you may be currently going through. 
@@ -125,12 +170,14 @@
 			</div> <!-- End social link menu -->
 
 </div> <!--1st Row complete -->
+
 </section>
 
 
   
   <!-- </div> container close  -->
 </div>
+
 
 
 <!--Footer-->
@@ -141,6 +188,8 @@
 	</footer>
 
 	<script src="assets/javascript/script.js"></script>
+
+
 </body>
 
 </html>	
