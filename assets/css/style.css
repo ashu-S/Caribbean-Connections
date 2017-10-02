@@ -1237,6 +1237,20 @@ footer{
     font-size: 50px;
     margin-left: 63px;
   }
+.smallHeading{
+    /*font-family:  serif;*/
+    font-weight: normal;
+    letter-spacing: -0.1em;
+    font-size: 35px;
+    margin-left: 63px;
+
+  }
+
+.venueText{
+  margin-left: 63px;
+  margin-right: 63px;
+}
+
 .heading1{
   text-decoration: none;
   -webkit-transition: opacity 0.2s;
