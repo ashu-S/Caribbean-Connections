@@ -1,7 +1,7 @@
 /*Nav Bar*/
 .navbar{
   height: 100px;
-  
+
 }
 .navbar-collapse{
   margin-top: 2%;
@@ -37,6 +37,40 @@ a {
     margin-top: -1px;
 }
 
+<<<<<<< HEAD
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+=======
+>>>>>>> 1d0dc9eb2106c346ebec5ce8e1b9e4b87ec744b7
 .form-group{
   margin-left: 3px !important;
   position: relative;
@@ -59,7 +93,7 @@ a {
     font-size: 30px ! important;
     color: white ! important;
   }
-  
+
 .logo{
   position: relative;
   top: -47px;
@@ -140,7 +174,7 @@ a {
 
 /*.about-jumbotron{
   height: 910px;
-  background-image: url(../images/womanstretchingbeach.jpg) !important; 
+  background-image: url(../images/womanstretchingbeach.jpg) !important;
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
@@ -283,6 +317,25 @@ a {
   background-attachment: fixed;
 }
 
+.carousel-jumbotron{
+  margin-left: 17%;
+  width: 65%;
+  height: 5%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: silver;
+}
+
+.item{
+  height: 100%;
+}
+
+.venueImg{
+  width: 100%;
+  height: 100%;
+}
+
+
 .fitness-box{
   background-color: rgba(0,0,0,0.4);
   text-align: center;
@@ -371,18 +424,18 @@ a {
 
 .columnSize{
    width: 21% ! important;
-  
+
     /*padding: 1px;*/
 }
 /*@media screen and (min-width:992px)
 {
 .col-md-3 {
     width: 25%;
-     padding: 0px; 
+     padding: 0px;
     margin-left: 21px !important;
     position: relative;
     /*margin-left: 21px;*/
-  
+
 .buttonClass{
     float:left;
     width: 30%;
@@ -468,7 +521,7 @@ a{
   position: relative;
     left: 49px;
   width: 780px;
-  
+
 }
 
 
@@ -558,7 +611,7 @@ element that contains the map. */
 ./*map-row{
   height: 600px;
   padding: 1px;
-} 
+}
 */
 .columnSize{
  /* padding-right:0 ! important;
@@ -1012,7 +1065,7 @@ button, input, select, textarea {
 
 body{
   background-color: #4a98a5 !important;
-  overflow-y: hidden; 
+  overflow-y: hidden;
 }
 
 /*Sticky Footer*/
@@ -1063,7 +1116,7 @@ footer{
   margin-bottom: 50px;
   height: 700px;
   padding: 1px;
-} 
+}
 #form {
   background-color: rgba(189, 195, 199, 0.7);
   padding: 10px 25px;
@@ -1076,8 +1129,8 @@ footer{
 
 #form h1 {
       font-size: 100%;
-      font-weight: 700; 
-      margin-bottom: 3px;    
+      font-weight: 700;
+      margin-bottom: 3px;
 }
 
 .fieldset {
@@ -1184,6 +1237,21 @@ footer{
     font-size: 50px;
     margin-left: 63px;
   }
+.smallHeading{
+    /*font-family:  serif;*/
+    font-weight: normal;
+    letter-spacing: -0.1em;
+    font-size: 35px;
+    margin-left: 63px;
+
+  }
+
+.venueText{
+  margin-left: 63px;
+  margin-right: 63px;
+  margin-bottom: 20px;
+}
+
 .heading1{
   text-decoration: none;
   -webkit-transition: opacity 0.2s;
@@ -1214,26 +1282,28 @@ position: relative;
     top: 36px;
 }
     }
-    .event-list {
+
+.event-list {
     list-style: none;
     font-family: 'Lato', sans-serif;
     margin: 0px;
     padding: 0px;
     position: relative;
     left: -10% !important;
-  }
-  .event-list > li {
-    background-color: rgb(255, 255, 255);
+}
+.event-list > li {
+    background-color: rgba(255, 255, 255,0);
     box-shadow: 0px 0px 5px rgb(51, 51, 51);
     box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
-    padding: 0px;
+    padding: 20px;
     margin: 0px 0px 20px;
     width: 119%!important ;
-  }
+    overflow: auto;
+}
   .event-list > li > time {
     display: inline-block;
     width: 100%;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255);
     background-color: rgb(197, 44, 102);
     padding: 5px;
     text-align: center;
@@ -1263,6 +1333,7 @@ position: relative;
   .event-list > li > .info {
     padding-top: 5px;
     text-align: center;
+    overflow: auto;
   }
   .event-list > li > .info > .title {
     font-size: 17pt;
@@ -1275,6 +1346,7 @@ position: relative;
     font-size: 13pt;
     font-weight: 300;
     margin: 0px;
+    overflow: auto;
   }
   .event-list > li > .info > ul,
   .event-list > li > .social > ul {
@@ -1302,18 +1374,24 @@ position: relative;
     width: 100%;
     color: rgb(30, 30, 30);
     text-decoration: none;
-  } 
-    .event-list > li > .social > ul > li {    
+  }
+    .event-list > li > .social > ul > li {
         padding: 0px;
     }
     .event-list > li > .social > ul > li > a {
         padding: 3px 0px;
-  } 
+  }
   .event-list > li > .info > ul > li:hover,
   .event-list > li > .social > ul > li:hover {
     color: rgb(30, 30, 30);
     background-color: rgb(200, 200, 200);
   }
+
+.imgTestimonial{
+    height: 80%;
+    margin: 4px;
+
+}
   .facebook a,
   .twitter a,
   .google-plus a {
@@ -1359,7 +1437,7 @@ position: relative;
     }
     .event-list > li > .info {
       background-color: rgb(245, 245, 245);
-      overflow: hidden;
+      overflow: auto;
     }
     .event-list > li > time,
     .event-list > li > img {
@@ -1373,8 +1451,8 @@ position: relative;
       height: 120px;
       text-align: left;
       padding-right: 40px;
-    } 
-    .event-list > li > .info > .title, 
+    }
+    .event-list > li > .info > .title,
     .event-list > li > .info > .desc {
       padding: 0px 10px;
     }
@@ -1393,7 +1471,7 @@ position: relative;
         .event-list > li > .social > ul {
             border-left: 1px solid rgb(230, 230, 230);
         }
-    .event-list > li > .social > ul > li {      
+    .event-list > li > .social > ul > li {
       display: block;
             padding: 0px;
     }
@@ -1408,14 +1486,14 @@ position: relative;
   position: relative;
     left: 0px !important;
     top: -19px !important;
-    width: 100% !important;   
+    width: 100% !important;
   }
   .event-container1{
      background-color: white !important;
   position: relative;
     left: 0px !important;
     top: -49px !important;
-    width: 100% !important; 
+    width: 100% !important;
   }
   .package-container1{
     background-color: white !important;
@@ -1434,6 +1512,7 @@ position: relative;
   padding: 8px;
 }
 */
+<<<<<<< HEAD
 /**/
 .columns1 {
     float: left;
@@ -1494,3 +1573,5 @@ position: relative;
     left: 40px;
     top: 96px;
 }
+=======
+>>>>>>> 423cf06563552abd11980c10a7df6b2fc3914918
