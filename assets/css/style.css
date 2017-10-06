@@ -722,6 +722,16 @@ The good life,Interval training*/
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.filler-jumbotron8{
+  position: relative;
+    top: -80px;
+  height: 734px;
+  background-image: url(../images/image1.jpg);
+  /*background-size: 100%;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .filler-jumbotron1{
   position: relative;
     top: -80px;
@@ -1497,10 +1507,16 @@ position: relative;
   }
   .package-container1{
     background-color: white !important;
-  position: relative;
-    left: 47px !important;
-    top: -155px !important;
-    width: 100% !important; 
+    position: relative;
+    left: 56px !important;
+    top: -9px !important;
+    width: 100% !important;
+    height: 200px;
+
+/*    position: relative;
+    left: 0px !important;
+    top: -19px !important;
+    width: 100% !important;*/
   }
 /*.seminars-jumbotron{
   position: relative;
@@ -1513,11 +1529,13 @@ position: relative;
 }
 */
 
-/**/
+/*column for packages*/
 .columns1 {
+  /*background-color: white!important;*/
     float: left;
     width: 30.3%;
     padding: 6px;
+    height: 530px;
 }
 
 .price {
@@ -1568,9 +1586,10 @@ position: relative;
 * {
     box-sizing: border-box;
 }
-.containerPackage{
-   position: relative;
+/*.containerPackage{*/
+  /*background-color: white !important;
+  /* position: relative;
     left: 40px;
-    top: 96px;
-}
+    top: 96px;*/
+/*}*/
 
