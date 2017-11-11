@@ -37,7 +37,7 @@ a {
     margin-top: -1px;
 }
 
-<<<<<<< HEAD
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -1593,3 +1593,16 @@ position: relative;
     top: 96px;*/
 /*}*/
 
+/*H3 styling*/
+.serviceh4{
+  position: relative;
+  left: 70px;
+}
+.eventh4{
+  position: relative;
+  left: 70px;
+}
+.strategyh4{
+  position: relative;
+  left: 70px;
+}
